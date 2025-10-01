@@ -24,21 +24,13 @@ Dieses Repo beschreibt die Objekterkennung mit einer KI. KI-Objekterkennung ist 
 ## Ablauf:
 
 - Inbetriebnahme des Raspberry Pi
-
-- Virtual Environments mit Anaconda
-  
-- Aufgaben der KI Modelle
-  
-- Installation der KI Modelle
-  
-- Die KI Modelle anhand von Beispielen testen
-  
+- Virtual Environments mit Anaconda  
+- Aufgaben der KI Modelle  
+- Installation der KI Modelle  
+- Die KI Modelle anhand von Beispielen testen  
 - Die Objekterkennung mit Bilder testen
-
-- Eine KI mit colab erstellen
-  
-- Die Objekterkennung mit der Kamera testen
-  
+- Eine KI mit colab erstellen  
+- Die Objekterkennung mit der Kamera testen  
 - Objekte mit der Kamera zählen
 
 
@@ -1063,7 +1055,6 @@ change_res(1200,1200)
             
 region_points = [(50, 20), (300, 20), (300, 450), (50, 450)]
 
-
 # Init ObjectCounter
 counter = solutions.ObjectCounter(
     show=True,  # Display the output
@@ -1075,7 +1066,6 @@ counter = solutions.ObjectCounter(
     # line_width=2,  # Adjust the line width for bounding boxes and text display
 )
 
-# Process video
 while(True):
     success, source0 = cap.read()
     source0 = counter(source0 )
@@ -1872,19 +1862,14 @@ Bildausschnitt mit Strg+S speichern
 
 import cv2 
 import numpy as np 
-  
-  
-# Read image 
+
 image = cv2.imread("kimmich.png") 
-  
-# Select ROI 
+
 r = cv2.selectROI("select the area", image) 
-  
-# Crop image 
+
 cropped_image = image[int(r[1]):int(r[1]+r[3]),  
                       int(r[0]):int(r[0]+r[2])] 
-  
-# Display cropped image 
+
 cv2.imshow("Cropped image", cropped_image) 
 cv2.waitKey(0) 
 ```
