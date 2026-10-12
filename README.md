@@ -2,17 +2,14 @@
 
 <div align="center">
 
-# Objekterkennung mit yolov5
+|[:skull:ISSUE](https://github.com/frankyhub/02_KI4Kids_Face/issues?q=is%3Aissue)|[:speech_balloon: Forum /Discussion](https://github.com/frankyhub/02_KI4Kids_Face/discussions)|[:grey_question:WiKi](https://github.com/frankyhub/02_KI4Kids_Face/wiki)||
+|--|--|--|--|
+| | | | |
+<a href="https://github.com/frankyhub/02_KI4Kids_Face/issues">![GitHub issues](https://img.shields.io/github/issues/frankyhub/02_KI4Kids_Face)![GitHub closed issues](https://img.shields.io/github/issues-closed/frankyhub/02_KI4Kids_Face)|<a href="https://github.com/frankyhub/02_KI4Kids_Face/discussions">![GitHub Discussions](https://img.shields.io/github/discussions/frankyhub/02_KI4Kids_Face)|<a href="https://github.com/frankyhub/02_KI4Kids_Face/6eleases">![GitHub release (with filter)](https://img.shields.io/github/v/release/frankyhub/02_KI4Kids_Face)|![Static Badge](https://img.shields.io/badge/RepoNr.:-%2092-blue)|
+|![GitHub Created At](https://img.shields.io/github/created-at/frankyhub/02_KI4Kids_Face)| <a href="https://github.com/frankyhub/02_KI4Kids_Face/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/badges/shields" />| <a href="https://github.com/frankyhub/02_KI4Kids_Face/graphs/traffic"><img alt="ViewCount" src="https://views.whatilearened.today/views/github/frankyhub/github-clone-count-badge.svg">  |<a href="https://github.com/frankyhub?tab=stars"> ![GitHub User's stars](https://img.shields.io/github/stars/frankyhub)||
 
-
-|[:skull:ISSUE](https://github.com/frankyhub/01_KI4Kids_Object/issues?q=is%3Aissue)|[:speech_balloon: Forum /Discussion](https://github.com/frankyhub/01_KI4Kids_Object/discussions)|[:grey_question:WiKi](https://github.com/frankyhub/01_KI4Kids_Object/blob/main/wiki.md)|
-|--|--|--|
-| | | | 
-| <a href="https://github.com/frankyhub/01_KI4Kids_Object/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/badges/shields" />| <a href="https://github.com/frankyhub/01_KI4Kids_Object/graphs/traffic"><img alt="ViewCount" src="https://views.whatilearened.today/views/github/frankyhub/github-clone-count-badge.svg">  |<a href="https://github.com/frankyhub?tab=stars"> ![GitHub User's stars](https://img.shields.io/github/stars/frankyhub)|
-
-
-![Bild](pic/object.png)
-
+<img src="pic/object.png" width="500"> 
+<br> <br>
 
 </div>
 
@@ -34,8 +31,8 @@ Dieses Repo beschreibt die Objekterkennung mit einer KI. KI-Objekterkennung ist 
 - Objekte mit der Kamera zählen
 
 
-
-![Bild](pic/raspi5torch1.png)
+<img src="pic/raspi5torch1.png" width="500"> 
+<br> <br>
 
 ---
 
@@ -440,15 +437,18 @@ Fügt ein Logo in das erste Bild ein
 
 #### Bild (gmund.png)
 
-![Bild](pic/gmund.png)
+<img src="pic/gmund.png" width="500"> 
+<br> <br>
 
 #### Logo (logo.png)
 
-![Bild](pic/logo.png)
+<img src="pic/logo.png" width="500"> 
+<br> <br>
 
 #### Das Logo ist in das Bild eingefügt
 
-![Bild](pic/gmund2.png)
+<img src="pic/gmund2.png" width="500"> 
+<br> <br>
 
 Python
 
@@ -501,8 +501,8 @@ Der COCO-Datensatz (Common Objects in Context) ist ein umfangreicher Datensatz f
 
 Ultralytics COCO128 ist ein kleiner, aber vielseitiger Objekterkennungsdatensatz, der aus den ersten 128 Bildern des COCO-Train-Sets 2017 besteht. Dieser Datensatz ist ideal zum Testen und Debuggen von Objekterkennungsmodellen oder zum Experimentieren mit neuen Erkennungsansätzen.
 
-
-![Bild](/pic/Datenstruktur.png)
+<img src="pic/Datenstruktur.png" width="500"> 
+<br> <br>
 
 Der coco Datensatz ist in drei Teile aufgeteilt: Training, Validierung und Test. Beim maschinellen Lernen werden die 
 Datensätze Training, Validierung und Test dazu verwendet, dem Algorithmen beizubringen, Muster in den Daten zu erkennen.
@@ -511,12 +511,13 @@ Datensätze Training, Validierung und Test dazu verwendet, dem Algorithmen beizu
 - Ein Validierungsdatensatz ist eine Sammlung erprobter guter Daten, an denen der Algorithmus getestet werden kann.
 - Der Testdatensatz ist die endgültige Sammlung von Daten mit unbekanntem Inhalt, anhand derer die Leistung gemessen wird.
 
-  
-![Bild](/pic/map.jpg)
+<img src="pic/map.jpg" width="500"> 
+<br> <br>
 
 Die mittlere durchschnittliche Genauigkeit mAP (Mean Average Precision)
 
-![Bild](/pic/yolo.png)
+<img src="pic/yolo.png" width="500"> 
+<br> <br>
 
 Architektur der neuronalen Vernetzung von yolo Modellen. Ein Neuron erhält Signale von mehreren anderen Neuronen.
 
@@ -531,7 +532,8 @@ In einem neuronalen Netz ahmen künstliche Neuronen durch Algorithmen die Nerven
 
 Der Aufbau eines Künstlichen Neuronalen Netzes (KNN) besteht aus den Schichten: Eingabeschicht (Input Layer), verborgene Schicht (Hidden Layer) und Ausgabeschicht (Output Layer).
 
-![Bild](/pic/knn.jpg)
+<img src="pic/knn.jpg" width="500"> 
+<br> <br>
 
 ### Eingabeschicht: 
 Die Eingangsschicht versorgt das neuronale Netz mit den notwendigen Informationen. Die Input-Neuronen verarbeiten die eingegebenen Daten und führen diese gewichtet an die nächste Schicht weiter.   
@@ -539,7 +541,8 @@ Die Eingangsschicht versorgt das neuronale Netz mit den notwendigen Informatione
 ### Verborgene Schicht: 
 Die verborgene Schicht befindet sich zwischen der Eingabeschicht und der Ausgabeschicht. Während die Ein- und Ausgabeschicht lediglich aus einer Ebene bestehen, können beliebig viele Ebenen an Neuronen in der verborgenen Schicht vorhanden sein. Hier werden die empfangenen Informationen erneut gewichtet und von Neuron zu Neuron bis zur Ausgabeschicht weitergereicht. Die Gewichtung findet in jeder Ebene der verborgenen Schicht statt. Die genaue Prozessierung der Informationen ist jedoch nicht sichtbar. Daher stammt auch der Name, verborgene Schicht. Während in der Ein- und Ausgabeschicht die eingehenden und ausgehenden Daten sichtbar sind, ist der innere Bereich des Neuronalen Netzes im Prinzip eine Black Box.
 
-![Bild](/pic/sknn.png)
+<img src="pic/sknn.png" width="500"> 
+<br> <br>
 
 ### Ausgabeschicht: 
 Die Ausgabeschicht ist die letzte Schicht und schließt unmittelbar an die letzte Ebene der verborgenen Schicht an. Die Output-Neuronen beinhalten die resultierende Entscheidung, die als Informationsfluss hervorgeht.
@@ -678,7 +681,8 @@ with torch.no_grad():
 print(f"\nVorhersage für die vierte Zahl der zweiten Reihe, bei Eingabe 5 in der ersten Reihe: {predicted_value.item():.2f}")
 ```
 
-![Bild](pic/zahl.png)
+<img src="pic/zahl.png" width="500"> 
+<br> <br>
 
 ---
 
@@ -709,17 +713,19 @@ print(f"\nVorhersage für die vierte Zahl der zweiten Reihe, bei Eingabe 5 in de
 python detect.py --source data/images
 ```
 
+<img src="pic/bus.png" width="500"> 
+<br> <br>
 
-![Bild](pic/bus.png)
-
-![Bild](pic/zidane.png)
-
+<img src="pic/zidane.png" width="500"> 
+<br> <br>
 
 ## Teste dieses Bild
 
-![Bild](pic/cafe.jpg)
+<img src="pic/cafe.jpg" width="500"> 
+<br> <br>
 
-![Bild](pic/cafe2.png)
+<img src="pic/cafe2.png" width="500"> 
+<br> <br>
 
 ---
 
@@ -755,9 +761,11 @@ python detect.py --source 0
 
 ---
 
-![Bild](pic/object1.png)
+<img src="pic/object1.png" width="500"> 
+<br> <br>
 
-![Bild](pic/raspi5torch2.png)
+<img src="pic/raspi5torch2.png" width="500"> 
+<br> <br>
 
 ---
 
@@ -813,7 +821,8 @@ cv2.destroyAllWindows()
 
 ```
 
-![Bild](pic/objcount.png)
+<img src="pic/objcount.png" width="500"> 
+<br> <br>
 
 ---
 ## Der Yolov5 Datensatz coco und die coco-Classes
@@ -961,8 +970,8 @@ cv2.destroyAllWindows()
 
 ```
 
-![Bild](pic/count39.png)
-
+<img src="pic/count39.png" width="500"> 
+<br> <br>
 
 ### Download der png und mp4 Dateien
 
@@ -1026,7 +1035,8 @@ os.chdir(os.path.expanduser("~"))
 
 Verwende das Video bike.mp4
 
-![Bild](pic/count1.png)
+<img src="pic/count1.png" width="500"> 
+<br> <br>
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gWRux_rGjf0Y-FQ-vopFgO10c5e5OwKz#scrollTo=TYyUbXyR6MGR)
 
@@ -1086,9 +1096,9 @@ cv2.destroyAllWindows()
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/18dPXUYqAm686heqU8BU-8GYQGcte6IJ7#scrollTo=x5qKAEJrkaTa)
 
-    
-![Bild](pic/ColabCam.png)
-
+  
+<img src="pic/ColabCam.png" width="500"> 
+<br> <br>  
 
 ---
 ---
@@ -1844,11 +1854,12 @@ Mit der Maus einen Bildbereich auswählen
 mit Enter bestätigen
 
 Bildausschnitt mit Strg+S speichern
-
-
-![Bild](pic/bildausschn.png)
-
-![Bild](pic/bildausschnitt.png)
+  
+<img src="pic/bildausschn.png" width="500"> 
+<br> <br>  
+  
+<img src="pic/bildausschnitt.png" width="500"> 
+<br> <br>  
 
 Python
 
@@ -1881,10 +1892,9 @@ cv2.waitKey(0)
 Matplotlib ist eine Plot-Bibliothek für Python, die  eine Vielzahl von Plot-Methoden bietet.
 
 Man kann Bilder mit Matplotlib zoomen, speichern usw.
-
-
-
-![Bild](pic/mathplot2.png)
+ 
+<img src="pic/mathplot2.png" width="500"> 
+<br> <br>  
 
 Python
 
@@ -1913,8 +1923,9 @@ plt.show()
 ```
 
 ### mathplot fügt ein Bild ein
-
-![Bild](pic/mathplot1.png)
+ 
+<img src="pic/mathplot1.png" width="500"> 
+<br> <br>
 
 Python
 
@@ -1929,9 +1940,6 @@ plt.imshow(img, cmap = 'gray', interpolation = 'bicubic')
 plt.xticks([]), plt.yticks([])  # So werden Teilstrichswerte auf der X- und Y-Achse ausgeblendet
 plt.show()
 ```
-
-
-
 ---
 
 <div style="position:absolute; left:2cm; ">   
