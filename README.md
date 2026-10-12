@@ -442,7 +442,7 @@ Fügt ein Logo in das erste Bild ein
 
 #### Logo (logo.png)
 
-<img src="pic/logo.png" width="500"> 
+<img src="pic/logo.png" width="100"> 
 <br> <br>
 
 #### Das Logo ist in das Bild eingefügt
